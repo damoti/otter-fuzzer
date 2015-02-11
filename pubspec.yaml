@@ -1,0 +1,10 @@
+name: otter-fuzzer
+version: 1.0.0
+homepage: https://github.com/damoti/otter-fuzzer
+description: >
+  fuzzer for otter
+author: Lex Berezhny <lex@damoti.com>
+dependencies:
+  mersenne: any
+dev_dependencies:
+  unittest: any
