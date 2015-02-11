@@ -7,7 +7,7 @@ class _RandomUtils {
 
   static final _random = new MersenneTwister()..seed(seed);
 
-  static List<String> _words = new File('packages/otter-fuzzer/src/jabberwocky.txt')
+  static List<String> _words = new File('packages/otter_fuzzer/src/jabberwocky.txt')
     .readAsStringSync()
     .split(new RegExp(r'\W+'))..removeWhere((s) => s.isEmpty);
 
